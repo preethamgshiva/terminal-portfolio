@@ -5,12 +5,11 @@ Users can explore my work, skills, and experience by typing commands in a fake t
 
 ---
 
-## ✨ Features  
-- 🖤 Terminal-inspired UI with ASCII banners  
-- 📜 Built-in commands like `help`, `about`, `projects`, `contact`  
-- 📱 Mobile responsive design  
-- 🎨 Custom ASCII art for my name/logo  
-- ⚡ Fast & lightweight  
+## Features  
+-  Terminal-inspired UI with ASCII banners  
+-  Built-in commands like `help`, `about`, `projects`, `contact`  
+-  Mobile responsive design    
+-  Fast & lightweight  
 
 ---
 
@@ -21,8 +20,6 @@ Users can explore my work, skills, and experience by typing commands in a fake t
 - [Vercel](https://vercel.com/) – deployment  
 
 ---
-
-## 🚀 Getting Started  
 
 ### Clone the repo
 ```bash
