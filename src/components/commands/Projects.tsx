@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
-    isArgInvalid(arg, "go", ["1", "2", "3", "4"]) ? (
+    isArgInvalid(arg, "go", ["1", "2", "3", "4", "5"]) ? (
       <Usage cmd="projects" />
     ) : null;
 
@@ -58,7 +58,7 @@ const projects = [
     id: 1,
     title: "TARS Web",
     desc: "An AI-powered assistant inspired by Interstellar’s TARS, built using LangChain, Ollama, and React. Includes PDF upload and explain feature.",
-    url: "https://github.com/preethamgshiva/tars-web", // replace with your repo link
+    url: "https://github.com/preethamgshiva/T.A.R.S-Web", // replace with your repo link
   },
   {
     id: 2,
@@ -85,6 +85,5 @@ const projects = [
     url: "https://github.com/preethamgshiva/SMS-E-Mail-Spam-Detector", // replace with your repo link
   },
 ];
-
 
 export default Projects;
