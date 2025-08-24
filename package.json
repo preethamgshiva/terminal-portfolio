@@ -1,0 +1,65 @@
+# 🖥️ Terminal Portfolio  
+
+A **terminal-style developer portfolio** built with React, TypeScript, and Vite.  
+It simulates a command-line interface (CLI) where users can explore my work, skills, and experience by typing commands.  
+
+---
+
+## ✨ Features  
+- 🖤 Terminal-inspired UI with ASCII banners  
+- 📜 Built-in commands like `help`, `about`, `projects`, `contact`  
+- 📱 Mobile responsive design  
+- 🎨 Custom ASCII art for my name/logo  
+- ⚡ Fast & lightweight with Vite + React 18  
+- 🔌 PWA support  
+
+---
+
+## 🛠 Tech Stack  
+
+### **Frontend**
+- [React 18](https://react.dev/) – UI library  
+- [React DOM](https://react.dev/) – rendering React components  
+- [styled-components](https://styled-components.com/) – CSS-in-JS styling  
+- [styled-normalize](https://github.com/sergeysova/styled-normalize) – normalize.css for consistent styling  
+
+### **Build Tooling**
+- [Vite](https://vitejs.dev/) – fast dev server & bundler  
+- [TypeScript](https://www.typescriptlang.org/) – typed JavaScript  
+
+### **Utilities**
+- [Lodash](https://lodash.com/) – utility functions for arrays, objects, strings  
+
+### **Linting & Formatting**
+- [ESLint](https://eslint.org/) – linting  
+- [Prettier](https://prettier.io/) – code formatting  
+- eslint-plugin-react / react-hooks – React-specific linting  
+- eslint-plugin-import – import/export rules  
+- eslint-plugin-prettier – integrate Prettier into ESLint  
+- eslint-plugin-markdown – lint code blocks inside Markdown  
+- eslint-config-prettier – resolves ESLint + Prettier conflicts  
+- eslint-import-resolver-typescript – resolves TS imports  
+
+### **Testing**
+- [Vitest](https://vitest.dev/) – testing framework  
+- [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/) – test React components  
+- [@testing-library/jest-dom](https://testing-library.com/docs/ecosystem-jest-dom/) – custom DOM matchers  
+- [@testing-library/user-event](https://testing-library.com/docs/user-event/intro/) – simulate user interactions  
+- [jsdom](https://github.com/jsdom/jsdom) – DOM emulation for tests  
+- [@vitest/coverage-c8](https://vitest.dev/guide/coverage.html) – code coverage  
+
+### **Git Hooks & Automation**
+- [Husky](https://typicode.github.io/husky/) – Git hooks  
+- [lint-staged](https://github.com/okonet/lint-staged) – run linters on staged files  
+
+### **Other**
+- [vite-plugin-pwa](https://vite-pwa-org.netlify.app/) – Progressive Web App support  
+
+---
+
+## 🚀 Getting Started  
+
+### Clone the repo
+```bash
+git clone https://github.com/your-username/terminal-portfolio.git
+cd terminal-portfolio
